@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './ContactList.module.css';
-// import listItem from '../ListItem'
 import ListItem from '../ListItem';
 
 // cостояние хранится в ближайшем общем предке

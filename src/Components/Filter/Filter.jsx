@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Filter.module.css';
 const Filter = ({ filter, onHandleInputSearch }) => {
   return (
@@ -16,5 +17,9 @@ const Filter = ({ filter, onHandleInputSearch }) => {
       </label>
     </div>
   );
+};
+Filter.propTypes = {
+  onHandleInputSearch: PropTypes.func.isRequired,
+  filter: PropTypes.string.isRequired,
 };
 export default Filter;
