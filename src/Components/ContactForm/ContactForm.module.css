@@ -1,0 +1,33 @@
+.form {
+  border: 3px solid rgb(49, 105, 138);
+  padding: 40px;
+  max-width: 500px;
+}
+
+.input {
+  max-width: 450px;
+  height: 30px;
+}
+
+.label {
+  max-width: 450px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(49, 105, 138);
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+.button:hover {
+  background-color: rgb(76, 226, 236);
+  color: black;
+}
